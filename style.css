@@ -24,12 +24,20 @@ h1{
 .text-part{
         width: 40%;
         padding: 2%;
+        
 }
 .image-part{
        width: 60%;
+       margin-left: 50px;
         
        
 }
 .top-banner{
         background-image: url(images/top-banner.png);
+        margin-bottom: 100px;
+}
+.dream-big{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
 }
