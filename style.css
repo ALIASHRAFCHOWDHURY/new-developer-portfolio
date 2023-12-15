@@ -34,10 +34,43 @@ h1{
 }
 .top-banner{
         background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+        
         margin-bottom: 100px;
 }
 .dream-big{
         background-image: url(images/dream-bg.png);
         background-repeat: no-repeat;
         background-position: right;
+}
+.footer-part{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        background-image: url(images/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+}
+.left-box{
+        border-left: 5px solid;
+        border-color: rgb(185, 51, 28);
+        width: 45%;
+        margin-left: 2.55%;
+        margin-right: 2.5%;
+        padding: 15px;
+        box-shadow: 10px 10px 5px #888888;
+      
+}
+.right-box{
+        border-left: 5px solid;
+        border-color: blue;
+        width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        padding: 15px;
+        box-shadow: 10px 10px 5px #888888;
+}
+.finishing-line{
+        text-align: center;
+        margin-top: 200px;
 }
